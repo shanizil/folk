@@ -1,0 +1,34 @@
+h1{
+    font-family:HelveticaNeue-Bold;
+    font-size:28px;
+    color:#ffffff;
+    font-weight: bold;
+    letter-spacing:1px;
+    padding-left:55px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+a{
+    text-align:left;
+    font-family:HelveticaNeue-Medium;
+    font-size:14px;
+    letter-spacing:0;
+    color:#ffffff;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 965px;
+    padding-top: 40px;    
+}
+
+a+a{
+    color:#9b9b9b;
+    margin-left: 1070px;
+    padding-top: 40px;
+}
+
+a+a+a{
+    padding-top: 40px;
+    margin-left: 1155px;
+    color:#ffffff;    
+}

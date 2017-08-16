@@ -1,0 +1,27 @@
+#lines{
+  margin-top: -90px;
+  margin-left: 230px;
+}
+
+
+#instruments{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+}
+h4{
+    font-family:LucidaGrande;
+    font-size:15px;
+    color:#ffffff;
+    letter-spacing:0;
+    text-align: center;
+}
+
+#dotBefore1{
+    margin-top: -10px;
+    margin-left: 30px;
+
+}
+#dotBefore{
+   margin-left: 20px;
+}

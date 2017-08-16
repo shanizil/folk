@@ -1,0 +1,126 @@
+
+<div id="wrapper">
+    <header>
+        <h1>Defolk</h1>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">elliemoalem <img src='../assets/images/10.png'> </a>
+    </header>
+
+    <aside>
+        <section id="album">
+            <img src='../assets/images/20.png'>
+            <img src='../assets/images/rokeFolkPlaylist.png'>
+            <p>Rock Folk</p>
+            <p>HARDWELL</p>
+        </section>
+        <section id="song">
+            <img src='../assets/images/sevenHours.png'>
+            <img src='../assets/images/sortButton.png'>
+            <p>Seven Hours</p>
+            <p>Little May</p>
+        </section>
+        <section id="play">
+            <img src='../assets/images/backward.png'>
+            <img src='../assets/images/puse.png'>
+            <img src='../assets/images/forward.png'>
+        </section>
+    </aside>
+
+    <nav>
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation">
+                <a routerLink="" routerLinkActive="active" aria-hidden="true"><img src='../assets/images/home.png'>Home</a>
+            </li>
+            <li>
+                <a routerLink="" routerLinkActive="active" ><img src='../assets/images/love.png'>Favorite</a>
+            </li>
+            <li>
+                <a routerLink="" routerLinkActive="active" ><img src='../assets/images/popularIcon.png'><span>Popular</span> Playlist</a>
+            </li>
+            <li>
+                <a routerLink="" routerLinkActive="active" ><img src='../assets/images/albumIcon.png'>Albums</a>
+            </li>
+            <li>
+                <a routerLink="" routerLinkActive="active" ><img src='../assets/images/playlistIcon.png'><span>Your</span> Playlist</a>
+            </li>
+            <li>
+                <a routerLink="" routerLinkActive="active" ><img src='../assets/images/djIcon.png'>Dj</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+    <main>
+
+        <div id="subject">
+            <img src='../assets/images/coverPhoto.png'>
+            <p>Rock Folk</p>
+        </div>
+
+
+
+    <div class="songs" id="style">  
+        <div class="row" *ngFor="let s of songs">
+            <ul>
+                <li>
+                <div class="col-md-1"><img src='../assets/images/playButton.png'><img src='{{s.songImg}}'></div>
+                <div class="col-md-3">{{s.songName}}</div>    
+                <div class="col-md-3">{{s.singerName}}</div>
+                <div class="col-md-2">{{s.name}}</div>
+                <div class="col-md-1">{{s.time}}</div>
+                <div class="col-md-1"><img src='../assets/images/like.png'> {{s.likes}}</div>
+                <div class="col-md-1"><img src='../assets/images/upload.png'> <!-- <img src='../assets/images/plus.png'> --></div>
+                </li>         
+            </ul>        
+        </div>
+    </div>
+
+
+
+        <div id="comments">
+            <app-comments></app-comments>
+        </div>
+            
+
+
+
+        <div id="albums">
+            <app-albums></app-albums>
+        </div>
+
+ 
+
+        <div id="mayAlsoLike">
+            
+        </div>
+
+<!--     <div id="bg"></div>
+ -->    </main>
+
+
+      <img src='../../assets/images/bg.png'>
+      
+
+
+    <div class="clear"></div>
+
+    <footer>
+        <div>
+            <a href="#">Terms</a> 
+            <a href="#">privacy</a>
+            <a href="#">contact</a>
+        </div>
+        <div>
+            <a href="#">instagram</a> 
+            <a href="#">Tweeter</a>
+            <a href="#">facbook</a>
+        </div>
+    </footer>
+
+    
+</div>

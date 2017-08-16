@@ -1,0 +1,92 @@
+img{
+    float: left;
+    padding-right: 5px;
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 35px;
+    border-bottom: 1px solid #c0c7cf;
+    width: 160px;
+    float: left;
+}
+
+.input{
+    float : right;
+    border:none;
+    margin-top: -45px;
+    margin-right: 10px;
+    border-radius: 9px;
+    background-color: #40536b;
+}
+
+#album{
+    height : 100px;
+    color:#ffffff;
+    display: inline-block;
+    padding: 15px;
+}
+
+#album section{
+    background:#2c435f;
+    width:210px;
+    height:170px;
+}
+
+#album section img{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+#album section+section{
+    opacity: 1;
+    background:#0c1e35;
+    width:210px;
+    height:60px;
+    margin-top: -10px;
+}
+
+#album h4{
+    font-size: 14px;
+    padding-left:10px;
+    padding-top: 7px;
+}
+
+#album h3{
+    font-size: 10px;
+    padding-left: 40px;
+    margin-top: -25px;
+    color:#9b9b9b;
+
+}
+
+#album h3+h3{
+    font-size: 7px;
+    padding-left: 40px;
+    margin-top: -5px;
+    letter-spacing:0;
+    color:#9b9b9b;
+}
+
+#album section+section img{
+    width: 40px;
+    height:30px;
+    margin-top: -7px;
+    margin-left: -5px;
+}
+
+#album section+section div img{
+    float: right; 
+    margin-top: -50px;
+    margin-right: 10px; 
+
+}
+
+#album section+section div img+img{
+    margin-right: 40px;
+    margin-top: -50px;
+}
+
+/*app-album-item{
+    border : 2px solid white;
+}*/

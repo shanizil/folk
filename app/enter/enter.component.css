@@ -1,0 +1,13 @@
+app-enter-header, app-enter-main, app-main-footer{
+    display: block;
+    width : 100%;
+}
+
+app-enter-main{
+    height: 500px;  
+}
+
+
+app-enter-header{
+    height: 80px;
+}

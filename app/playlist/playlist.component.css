@@ -1,0 +1,381 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Helvetica Neue'), local('HelveticaNeue'), url(http://themes.googleusercontent.com/licensed/font?kit=Lx1xfUTR4qFjwg0Z_pb900DGSpWewu0sZH-jqLz8Q00) format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Helvetica Neue'), local('HelveticaNeue'), url(http://themes.googleusercontent.com/licensed/font?kit=Lx1xfUTR4qFjwg0Z_pb900DGSpWewu0sZH-jqLz8Q00) format('truetype');
+}
+
+#wrapper{
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+
+h1{
+    color:#ffffff;
+}
+
+
+header{
+    height: 56px;
+    width: 100%;
+    background: #0c1e35;
+    position: relative;  
+}
+
+header h1{
+    font-family:HelveticaNeue-Bold;
+    font-size:28px;
+    color:#ffffff;
+    font-weight: bold;
+    letter-spacing:1px;
+    padding-left:40px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+header a{
+    font-family:HelveticaNeue-Medium;
+    font-size:12px;
+    letter-spacing:0;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 950px;
+    padding-top: 22px;
+    color:#9b9b9b;
+}
+
+header a+a{
+    font-size:12px;
+    margin-left: 1017px;
+    padding-top: 22px;
+    color:#ffffff;
+}
+
+header a+a+a{
+    font-size:15px;
+    padding-top: 20px;
+    margin-left: 1105px;
+}
+
+
+
+aside{
+    background:#304967;
+    border:1px solid #1e395a;
+    border-right-style:none;
+    border-left-style: none;
+    height: 62px;
+    width: 100%;
+    color:#feffff;
+    font-family:HelveticaNeue-Medium;
+    font-size:13px;
+}
+
+#album img{
+    margin-left: 40px;
+    margin-top: 3px;
+}
+
+#album img+img{
+    margin-left: -50px;
+}
+
+#album p{
+    margin-left: 100px;
+    margin-top: -35px;
+    padding-bottom: 35px;
+}
+#album p+p{
+    font-size: 8px;
+}
+
+#song{
+    margin-left: 240px;
+    margin-top: -57px;
+
+}
+
+#song img{
+    height: 42px;
+    width: 42px; 
+    margin-top: -15px;
+}
+
+#song img+img{
+    width: 16px;
+    height: 14px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+#song p{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing:0.5px;
+    padding-left: 50px;
+    margin-top: -38px;
+    padding-bottom: 42px;
+}
+
+#song p+p{
+    font-size: 8px; 
+    letter-spacing:0.5px; 
+}
+
+#play{
+    margin-left: 940px;
+    margin-top: -70px;
+}
+
+#play img{
+    padding-right: 10px;
+}
+
+nav{
+    width: 190px;
+    float: left;
+    background: #173356;
+    height: 1800px;
+}
+
+nav ul{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+nav li span{
+    font-weight: bold;
+}
+
+nav ul li{
+    text-align:left;
+    padding-top: 20px;
+}
+
+nav ul li img{
+   padding-right: 10px;
+}
+
+nav li a {
+    width: 170px;
+    text-decoration: none;
+    font-family:HelveticaNeue-Medium;
+    font-size:15px;
+    color:#ffffff;
+    letter-spacing:0;
+}
+
+nav li a:hover {
+    background:#236875;
+    border-radius: 0;
+    height: 35px;
+    color: #ffffff;
+}
+/*
+nav li a:link{
+    background:#236875;
+    border-radius: 0;
+    height: 35px;
+}*/
+
+main{
+    background: #173356;
+    width: 1073px; 
+    height: 1800px;   /*2100*/
+    float: left;
+    position: relative;
+}
+
+
+#subject{
+    width: 1008px;
+    height: 797px;
+    background: #284262;
+    margin-left: 23px;
+    margin-top: 60px;
+}
+
+#subject img{
+    width: 908px;
+    margin-left: 50px;
+    margin-top: -20px;
+
+}
+
+#subject p{
+    font-family:HelveticaNeue-Bold;
+    font-size:45px;
+    font-weight: bold;
+    color:#ffffff;
+    letter-spacing:2px;
+    text-align:left;
+    margin-top: -230px;
+    margin-left: 130px;
+}
+
+
+
+footer{
+    height: 56px;
+    width: 100%;
+    background: #0c1e35;
+    margin-right: -8px;
+    margin-bottom: -8px; 
+}
+
+
+
+
+.row {
+    height: 38px;
+    padding-bottom: 50px;
+}
+
+
+
+.songs{
+    font-family:HelveticaNeue;
+    font-size:11px;
+    color:#ffffff;
+    letter-spacing:0;
+    text-align:left;
+    padding: 30px;
+    height: 350px;
+    width: 902px;
+    background: #14415d;
+    position: absolute;
+    margin-top: -525px;
+    margin-left:79px;
+    overflow-y: scroll;
+}
+
+.col-md-1 img{
+    padding-left: 12px;
+    margin-top: -5px;
+}
+
+
+.row div+div{
+    padding-left: 12px;
+}
+
+/*chance*/
+.row li{
+    list-style-type:none; 
+}
+
+
+/*.row li a {
+    display: block;
+    text-decoration: none;
+    font-family:HelveticaNeue-Medium;
+    font-size:15px;
+    color:#ffffff;
+    letter-spacing:0;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+
+.row li a:hover {
+    opacity:0.24;
+    background:#50e3c2;
+    z-index: -1;
+}
+*/
+
+                    
+#style::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+#style::-webkit-scrollbar{
+    width: 7px;
+    background-color: #14415d;
+}
+
+#style::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    -webkit-box-shadow:inset 0 0 1px rgb(0,0,0,0.3);
+    background-color:#416379;
+}
+
+
+
+footer a{
+    text-decoration: none;
+    color:#ffffff;
+    padding-right:20px; 
+}
+
+
+footer div{
+    position:absolute;
+    padding-top: 20px;
+    padding-left: 60px; 
+}
+
+footer div+div{
+    position: absolute;
+    padding-left: 985px; 
+}
+
+#albums{
+    opacity:0.9;
+    background-image: url('../../assets/images/albums_bg.png');
+    margin-top: 50px;
+    margin-left: 23px;
+    width: 1008px;
+    height: 560px;
+    padding-top: 30px;
+    padding-left:25px;
+}
+
+#mayAlsoLike{
+    opacity:0.9;
+    background-image: url('../../assets/images/albums_bg.png');
+    margin-left: 23px;
+    width: 1008px;
+    height: 350px;
+    z-index: 1;
+}
+
+/*#bg{
+    height: 280px;
+    width: 1263px;
+   z-index: -1;
+    margin-top: -37px;
+background-image: url('../../assets/images/bgfavorites1.png') ;  
+}
+
+*/
+
+
+
+#comments{
+    border:2px solid #364c69;
+    width:585px;
+    height:140px;
+    position: absolute; 
+    margin-left: 85px;
+    margin-top:-155px; 
+    background: #284262;
+    color: #ffffff;
+}
+
