@@ -1,0 +1,8 @@
+<img id="lines" src="../../assets/images/lines.png">
+<div id="instruments" [style.marginTop.px]="instrument.MarginTop" [style.marginLeft.px]="instrument.MarginLeft" *ngFor="let instrument of instruments; let odd = odd ; let even = even; (click) ="onClick"">
+    <h4 *ngIf= " even" >  {{instrument.text}}</h4>
+    <img id="dotBefore1" *ngIf =" odd" [src]="instrument.DotBefore"/>
+    <img [src]="instrument.ImgCurrent"/>
+    <img  id="dotBefore" *ngIf =" even" [src]="instrument.DotBefore"/>
+    <h4 *ngIf= " odd" >  {{instrument.text}}</h4>
+</div>
